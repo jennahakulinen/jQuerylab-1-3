@@ -15,7 +15,7 @@ $('#nappi').click(sayHello);
 */
 
 $('#nappi').click(function() {
-    $('#jotain').after('<p>Hello user!</p>');
+    $('#jotain').after('<p id="tp">Hello user!</p>');
 });
 
 $('#4p').hide();
